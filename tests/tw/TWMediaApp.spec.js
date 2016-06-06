@@ -39,7 +39,7 @@ describe('travelweekly Media AppAdminPage', function () {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://staging.travelweekly.co.uk/app/admin/login');
+        browser.get('');
         browser.driver.manage().window().maximize();
 
     }
