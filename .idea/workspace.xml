@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e0219f-b269-49c5-aefb-cb0cd5531e4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/staticsite/filechecking.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/connectingtravel/CTtestsuite.spec.js" afterPath="$PROJECT_DIR$/tests/connectingtravel/CTtestsuite.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/project2/searchPage.spec.js" afterPath="$PROJECT_DIR$/tests/project2/searchPage.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/staticsite/filechecking.spec.js" afterPath="$PROJECT_DIR$/tests/staticsite/filechecking.spec.js" />
     </list>
     <ignored path="podium-e2e.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -726,12 +723,12 @@
       <workItem from="1465203336514" duration="1215000" />
       <workItem from="1465301325926" duration="725000" />
       <workItem from="1465381959519" duration="836000" />
-      <workItem from="1465427445731" duration="3825000" />
+      <workItem from="1465427445731" duration="4440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7295000" />
+    <option name="totallyTimeSpent" value="7910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="32" width="1845" height="1054" extended-state="0" />

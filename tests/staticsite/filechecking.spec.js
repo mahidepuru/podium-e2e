@@ -57,7 +57,6 @@ fdescribe('beam TV validation homepage todo list', function () {
 
 
 var showMeatData = element(by.xpath('//*[@id="control2"]/a/span')).click();
-            var faq = element(by.xpath('//*[@id="control3"]/a/span')).click();
 
             browser.pause();
 
