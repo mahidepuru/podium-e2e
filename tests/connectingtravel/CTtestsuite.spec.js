@@ -7,7 +7,7 @@ var CtprofilePage = require('./library/profile.js');
 
 var Ctcreatecompany = require('./library/createcompany.js');
 
-fdescribe('ConnectingTravel todo list',function() {
+describe('ConnectingTravel todo list',function() {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
