@@ -56,11 +56,11 @@ fdescribe('beam TV validation homepage todo list', function () {
             var listView = element(by.xpath('//*[@id="control1"]/a/span')).click();
 
 
-var showMeatData = element(by.xpath('//*[@id="control2"]/a/span')).click();
+            var showMeatData = element(by.xpath('//*[@id="control2"]/a/span')).click();
 
             browser.pause();
 
-            var selectcheckBoxes = element(by.xpath('//*[@id="all-Source"]/span')).click();
+            var Downloadalloption = element(by.xpath('//*[@id="control3"]/a/span')).click();
 
             var selectAllinVideo = element(by.xpath('//*[@id="file-127177140"]/div/div[1]/div/div[1]/span')).click();
 
