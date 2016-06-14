@@ -25,4 +25,4 @@ Support.prototype.isElementPresentByClass = function(sut, find, callback){
     });
 };
 
-module.exports = new Support();
+module.exports = newSupport();
