@@ -1,4 +1,4 @@
-fdescribe('beam TV validation homepage todo list', function () {
+describe('beam TV validation homepage todo list', function () {
     'use strict';
 
     var playVideo = element(by.xpath('//*[@id="grid-view"]/div/div[1]/div/div[1]/div/div/div/div[2]/a/span'));
