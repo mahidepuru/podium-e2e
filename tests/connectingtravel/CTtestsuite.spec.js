@@ -33,7 +33,7 @@ describe('ConnectingTravel todo list',function() {
             profile.profile();
 
 
-        });
+        })
     });
 
 */

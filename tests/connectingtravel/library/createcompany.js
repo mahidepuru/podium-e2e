@@ -21,7 +21,6 @@
 
     var uploadpicture = element(by.css('[ng-click="vm.upload()"]'));
 
-
     var picturefileLocation = element(by.css('.modal-content'));
 
 

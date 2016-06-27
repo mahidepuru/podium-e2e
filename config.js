@@ -13,9 +13,10 @@ exports.config = {
          browserName: 'firefox'
          }*/
     ],
-    onprepare:function(){
+    /*onprepare:function(){
     browser.driver.manage().timeouts().implicitlyWait(6000);
 },
+*/
     jasmineNodeOpts: {
         showColors: true
     }
