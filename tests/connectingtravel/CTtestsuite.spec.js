@@ -1,11 +1,11 @@
 
-var CtLoginPage = require('./library/Loginpage.js');
+var CtLoginPage = require('./library/Loginpage.js');//login page
 
-var CtRegistrationPage = require('./library/Registration.js');
+var CtRegistrationPage = require('./library/Registration.js');//Registration page
 
-var CtprofilePage = require('./library/profile.js');
+var CtprofilePage = require('./library/profile.js');//profile page
 
-var Ctcreatecompany = require('./library/createcompany.js');
+var Ctcreatecompany = require('./library/createcompany.js');//create company page
 
 describe('ConnectingTravel todo list',function() {
     beforeEach(beforeEachSetup);
@@ -33,6 +33,8 @@ describe('ConnectingTravel todo list',function() {
             profile.profile();
 
 
+
+
         })
     });
 
@@ -53,6 +55,12 @@ describe('ConnectingTravel todo list',function() {
              //createcompany.createcomp();
 
              createcompany.viewcompany();
+
+             this.passwordInput// for example we can call the password input on anyb page because it is given as this. in the page
+
+             //if we gave it as var == it it limited to the particular page
+
+             //
 
          });
      });
