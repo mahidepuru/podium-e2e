@@ -1,15 +1,14 @@
-describe('travolution homepage todo list', function () {
+fdescribe('travolution homepage todo list', function () {
     'use strict';
 
 
-    var NewsMenuselector = element(by.css('[ng-click ="handleClick(item, $event)"]'));
+    var NewsMenuselector,LoadMore,newsstory1,width,height;
 
-    var LoadMore = element(by.xpath('/html/body/div[1]/main/div/section/section[2]/div/section/div/div/button'));
-
-
-    var newsstory1 = element(by.css('[ui-sref="article.slug({articleId: vm.featuredArticle.easId, slug: vm.featuredArticle.slug})"]'));
-    var width = 1600;
-    var height = 1200;
+        NewsMenuselector = element(by.css('[ng-click ="handleClick(item, $event)"]'));
+        LoadMore= element(by.xpath('/html/body/div[1]/main/div/section/section[2]/div/section/div/div/button'));
+        newsstory1 = element(by.css('[ui-sref="article.slug({articleId: vm.featuredArticle.easId, slug: vm.featuredArticle.slug})"]'));
+        width = 1600;
+        height = 1200;
 
 
 
@@ -26,6 +25,8 @@ describe('travolution homepage todo list', function () {
 
 
             NewsMenuselector.click();
+
+
 
             var menuNews = getMenuFirstLevelElement(0);
 
