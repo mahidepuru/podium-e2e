@@ -37,8 +37,6 @@ describe('travolution Eventpage todo list', function () {
             var wallpaper = element(by.id('wallpaper'));
             //wall paper clickable when it is on ,otherwise the element is hidden
 
-
-
             //    wallpaper.click();
 
 

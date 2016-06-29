@@ -1,4 +1,4 @@
-fdescribe('YOPA todo list', function () {
+describe('YOPA todo list', function () {
 
 
     beforeEach(beforeEachSetup);

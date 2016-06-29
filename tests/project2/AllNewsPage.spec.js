@@ -8,12 +8,16 @@ describe('travolution homepage todo list', function () {
 
 
     var newsstory1 = element(by.css('[ui-sref="article.slug({articleId: vm.featuredArticle.easId, slug: vm.featuredArticle.slug})"]'));
+    var width = 1600;
+    var height = 1200;
+
+
 
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
         browser.get('http://travolution.com/');
-        browser.driver.manage().window().maximize();
+        browser.driver.manage().window().setSize(width, height);
 
     }
 

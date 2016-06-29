@@ -1,12 +1,6 @@
 'use strict';
 (function () {
     var CtLoginPage = function () {
-        this.userInput = element(by.model('vm.login.email'));
-        this.passwordInput = element(by.model('vm.login.password'));
-        this.loginButton = element(by.id('btn-signin'));
-
-        this.navigation = element(by.id('header-menu-profile'));
-
 
 
       //  this.Signout = element(by.css('ul.dropdown-menu > li:nth-child(4) > a:nth-child(1)'));
@@ -21,10 +15,10 @@
 
     function login(username, password) {
         console.log('BOOOM');
-        this.userInput.sendKeys(username);
+        this.userInput.sendKeys('rdepuru+2@gmail.com');
 
 
-        this.passwordInput.sendKeys(password);
+        this.passwordInput.sendKeys('mahireddy1');
         this.loginButton.click();
         console.log('done');
         this.navigation.click();

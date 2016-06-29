@@ -7,14 +7,16 @@ var CtprofilePage = require('./library/profile.js');//profile page
 
 var Ctcreatecompany = require('./library/createcompany.js');//create company page
 
-describe('ConnectingTravel todo list',function() {
+fdescribe('ConnectingTravel todo list',function() {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://staging.connectingtravel.com/app/sign-in');
-        browser.driver.manage().window().maximize();
+        browser.get('http://www.connectingtravel.com/app/sign-in');
+        browser.driver.manage().Window.Size = new Size(1024, 768);
 
     }
+
+    //https://www.ring.md/
 /*
     describe('registrationaccoun', function () {
         it('welcomes the user', function () {
@@ -46,7 +48,7 @@ describe('ConnectingTravel todo list',function() {
 
              var loginPage = new CtLoginPage();
 
-             loginPage.login('rdepuru+2@gmail.com', 'mahireddy1');
+             loginPage.get();
 
 
 
