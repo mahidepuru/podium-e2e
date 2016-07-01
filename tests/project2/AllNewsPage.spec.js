@@ -18,6 +18,7 @@ fdescribe('travolution homepage todo list', function () {
         browser.get('http://travolution.com/');
         browser.driver.manage().window().setSize(width, height);
 
+
     }
 
     describe('IndepthAllnews ', function () {

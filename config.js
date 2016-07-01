@@ -5,18 +5,24 @@ exports.config = {
         'tests/**/*.spec.js'
     ],
     multiCapabilities: [
-        {
-            browserName: 'chrome'
+    {
+          browserName: 'chrome'
+
+
         }
-        /*,
+
+      ,
+        /*
          {
-         browserName: 'firefox'
-         }*/
+         browserName: 'phantomjs',
+         }
+         */
     ],
-    /*onprepare:function(){
+    onprepare:function(){
     browser.driver.manage().timeouts().implicitlyWait(6000);
 },
-*/
+
+
     jasmineNodeOpts: {
         showColors: true
     }
