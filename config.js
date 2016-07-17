@@ -5,23 +5,27 @@ exports.config = {
         'tests/**/*.spec.js'
     ],
     multiCapabilities: [
-    {
-          browserName: 'chrome'
+        {
+            browserName: 'chrome'
 
 
         }
 
-      ,
+        ,
         /*
          {
          browserName: 'phantomjs',
          }
          */
     ],
-    onprepare:function(){
-    browser.driver.manage().timeouts().implicitlyWait(6000);
-},
-
+    onprepare: function () {
+        browser.driver.manage().timeouts().implicitlyWait(6000);
+    },
+    cucumberOpts: {
+        require: 'features/step_definations/*_steps.js',
+        format: 'pretty'
+    }
+,
 
     jasmineNodeOpts: {
         showColors: true
