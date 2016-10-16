@@ -14,7 +14,7 @@ fdescribe('YOPA todo list', function () {
 
         browser.ignoreSynchronization = true;
 
-        browser.get('https://tungsten-network--uat.cs82.my.salesforce.com');
+        browser.get('');
 
         browser.driver.manage().window().maximize();
 

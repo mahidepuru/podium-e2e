@@ -11,7 +11,7 @@ describe('ConnectingTravel todo list',function() {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://www.connectingtravel.com/app/sign-in');
+        browser.get('');
         browser.driver.manage().Window.Size = new Size(1024, 768);
 
     }

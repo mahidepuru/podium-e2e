@@ -11,7 +11,7 @@ describe('travel weekly homepage todo list', function () {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://travelweekly.co.uk');
+        browser.get('');
 
     }
 

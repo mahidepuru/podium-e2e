@@ -6,7 +6,7 @@ describe('travolution homepage todo list', function () {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://travelweekly.co.uk/');
+        browser.get('');
         browser.driver.manage().window().maximize();
 
     }

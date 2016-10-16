@@ -16,7 +16,7 @@ describe('travel weekly homepage todo list', function () {
 
     describe('Meta tags', function () {
         it('Page should have proper meta title', function () {
-            expect(browser.getTitle()).toEqual('Travel Industry News and Travel Jobs from Travel Weekly | Travel Weekly');
+            expect(browser.getTitle()).toEqual('');
         });
     });
 

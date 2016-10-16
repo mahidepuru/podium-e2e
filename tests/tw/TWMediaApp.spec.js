@@ -48,7 +48,7 @@ describe('travelweekly Media AppAdminPage', function () {
         it('should have 3 elements loaded by default', function () {
 
 
-            var UsernameElement = element(by.model('vm.login.email')).sendKeys('admin@getpodium.co.uk');
+            var UsernameElement = element(by.model('vm.login.email')).sendKeys('sendkeys');
 
             var PasswordElement = element(by.model('vm.login.password')).sendKeys('test');
             SubmitButton .click();

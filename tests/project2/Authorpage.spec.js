@@ -7,7 +7,7 @@ describe('travolution homepage todo list', function () {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://staging.travolution.com/articles/author/29/Tom%20Irwin');
+        browser.get('h');
         browser.driver.manage().window().maximize();
 
     }

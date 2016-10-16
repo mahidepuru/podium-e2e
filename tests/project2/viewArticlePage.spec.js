@@ -12,7 +12,7 @@ describe('travolution homepage todo list', function () {
      beforeEach(beforeEachSetup);
 
      function beforeEachSetup() {
-         browser.get('http://staging.travolution.com/news');
+         browser.get('');
          browser.driver.manage().window().maximize();
 
      }

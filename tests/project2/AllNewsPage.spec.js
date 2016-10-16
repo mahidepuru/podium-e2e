@@ -15,7 +15,7 @@ describe('travolution homepage todo list', function () {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://travolution.com/');
+        browser.get('');
         browser.driver.manage().window().setSize(width, height);
 
 

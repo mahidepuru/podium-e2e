@@ -1,13 +1,13 @@
 
 
-describe('travolution Eventpage todo list', function () {
+describe(' Eventpage todo list', function () {
 
     var LoadMore = element(by.xpath('/html/body/div[1]/main/div/section/section/div/section/section[2]/div[10]/button'));
 
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://staging.travolution.com/events');
+        browser.get('');
         browser.driver.manage().window().maximize();
 
     }

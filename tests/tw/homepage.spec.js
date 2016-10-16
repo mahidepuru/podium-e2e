@@ -4,12 +4,12 @@ describe('travel weekly homepage todo list', function () {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://staging.travelweekly.co.uk');
+        browser.get('');
     }
 
     describe('Meta tags', function () {
         it('Page should have proper meta title', function () {
-            expect(browser.getTitle()).toEqual('Travel Industry News and Travel Jobs from Travel Weekly | Travel Weekly');
+            expect(browser.getTitle()).toEqual('gettitlepage');
         });
     });
 

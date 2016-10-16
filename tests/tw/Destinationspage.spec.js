@@ -3,7 +3,7 @@ describe('travel weekly homepage Destination Page todo list', function () {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://staging.travelweekly.co.uk');
+        browser.get('h');
         browser.driver.manage().window().maximize();
 
     }

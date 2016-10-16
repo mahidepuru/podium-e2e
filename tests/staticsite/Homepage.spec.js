@@ -4,12 +4,12 @@ describe('travel weekly homepage todo list', function () {
     beforeEach(beforeEachSetup);
 
     function beforeEachSetup() {
-        browser.get('http://www.travelgbi.com');
+        browser.get('');
     }
 
     describe('Meta tags', function () {
         it('Page should have proper meta title', function () {
-            expect(browser.getTitle()).toEqual('Domestic and inbound travel and tourism news | Travel GBI');
+            expect(browser.getTitle()).toEqual('');
         });
     });
 
